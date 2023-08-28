@@ -68,3 +68,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+node_modules react에 필요한 모듈들이 Npm 명령어로 설치되어 저장되는 곳 
+package.json 프로젝트에 설치된 모듈들 버전과 이름들이 작성되어있는 곳
+
+package.json
+ㄴ dependencies
+필요한 라이브러리와 버전들이 명시
+ㄴ scripts 
+앱 실행, 빌드, 테스트 등의 스크립트가 명시, 
+프로젝트에서 자주 실행해야하는 명령어를 scripts 로 작성해두면 npm 명령어로 실행 가능
+ㄴ eslintConfig 
+소스 코드입력시 문법이나 코드 포맷을 체크해주는 것에 대한 설정 명시
